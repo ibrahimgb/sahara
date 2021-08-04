@@ -4,6 +4,7 @@
     padding: 0px;
     margin: 0px;
     font-family: 'Roboto', sans-serif;
+ 
 }
 .container{
     width: 100%;
@@ -54,7 +55,7 @@ nav ul li a{
     align-items: center;
 }
 .col{
-    flex-basis: 50%;/*<--------------------------*/
+    flex-basis: 70%;/*<--------------------------*/
 
 }
 h1{
@@ -76,6 +77,7 @@ button{
     border-radius: 20px;
     outline: none;
     margin-top: 30px;
+    
 }
 .card{
     width: 200px;
@@ -88,7 +90,7 @@ button{
     margin: 10px 15px;
     background-position: center;
     background-size: cover;
-    translation:transform 0.5s;
+    transition:transform 0.5s;
 }
 .card1{
     background-image: url(imges/pic-1.png);
